@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Rode to redemption-step1</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+   
+  </style>
+</head>
+<body>
+
+  <header>
+    <!-- <nav>
+      <img src="images/logo.svg" alt="logo">
+      <ul>
+        <li><a>Features</a></li>
+        <li><a>Company</a></li>
+        <li><a>Careers</a></li>
+        <li><a>About</a></li>
+      </ul>
+      <ul>
+        <li><button>Login</button></li>
+        <li><button>Register</button></li>
+      </ul>
+    </nav> -->
+
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img style="width:100%;height:100%;" src="images/logo.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Features
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#"><img class="inline" src="images/icon-todo.svg" alt="todo"> To-do list</a></li>
+                <li><a class="dropdown-item" href="#"><img class="inline" src="images/icon-calendar.svg" alt="calender"> Calender</a></li>
+                <li><a class="dropdown-item" href="#"><img class="inline" src="images/icon-reminders.svg" alt="planning">  Reminders</a></li>
+                <li><a class="dropdown-item" href="#"><img class="inline" src="images/icon-planning.svg" alt="planning"> Planning</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Company
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">History</a></li>
+                <li><a class="dropdown-item" href="#">Our Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+           
+            <li class="nav-item button-move">
+              <a class="nav-link" href="#"><button class="btn btn-light">Login</button></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><button class="btn btn-outline-dark">Register</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+</header>
+<br>
+<div class="main-container row">
+<div class="col picture-container">
+  <!-- <img class="picture ms-auto" src="images/image-hero-desktop.png" alt="desktop potta image"> -->
+</div>
+<div class="text-align col">
+  <h1 class="heading"><span class="headingline">Make</span> remote work</h1>
+
+  <p class="content">Get your team in sync, no matter your location. Streamline processes, 
+    create team rituals, and watch productivity soar.</p>
+    
+  <button class="btn btn-dark button">Learn more</button> 
+
+  <div class="flex supporters">
+    <span>
+      <img class="image-resize" src="images/client-audiophile.svg" alt="audiophile">
+    </span>
+ <span>
+  <img class="image-resize" src="images/client-databiz.svg" alt="databiz">
+ </span>
+<span>
+  <img class="image-resize" src="images/client-maker.svg" alt="marker">
+</span>
+    <span>
+      <img class="image-resize" src="images/client-meet.svg" alt="meet">
+    </span>
+    
+  </div>
+</div>
+</div>
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Hikari021">@hikari</a>.
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+  let width = screen.width;
+ 
+
+  if(width<900){
+    document.querySelector('.main-container').classList.remove("row");
+    document.querySelector('.picture-container').classList.remove("col");
+    document.querySelector('.text-align').classList.remove("col");
+ 
+  }
+  if(width>900){
+ 
+    document.querySelector('.picture-container').classList.add('col');
+    document.querySelector('.main-container').classList.add('row');
+    document.querySelector('.text-align').classList.add('col');
+   
+  }
+  console.log(width);
+</script>
+</body>
+</html>
